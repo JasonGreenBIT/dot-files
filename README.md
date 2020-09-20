@@ -30,3 +30,7 @@ Activate the customisations in the current shell:
 ```bash
 source ~/.bashrc
 ```
+
+## Acknowledgements
+
+The **git/prompt.sh** file is taken from [https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh)
