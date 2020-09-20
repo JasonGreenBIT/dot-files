@@ -115,3 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# enable custom bash prompt
+if [ -s ~/src/dot-files/bash/prompt.sh ]; then
+    . ~/src/dot-files/bash/prompt.sh
+fi
