@@ -117,6 +117,11 @@ if ! shopt -oq posix; then
 fi
 
 # enable custom bash prompt
-if [ -s ~/src/dot-files/bash/prompt.sh ]; then
+if [ -f ~/src/dot-files/bash/prompt.sh ]; then
     . ~/src/dot-files/bash/prompt.sh
+fi
+
+# configure history
+if [ -f ~/src/dot-files/bash/history.sh ]; then
+    . ~/src/dot-files/bash/history.sh
 fi
